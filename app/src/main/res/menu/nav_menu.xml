@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/nav_jobs"
+        android:title="Jobs"
+        android:icon="@drawable/ic_baseline_branding_watermark_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_fav"
+        android:title="Fav"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_baseline_call_24"
+        app:showAsAction="ifRoom"/>
+</menu>
